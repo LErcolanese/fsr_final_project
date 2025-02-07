@@ -27,7 +27,9 @@ To start a new simulation, follow these steps:
 
 #### **For Map 1 and Map 2**  
 1. Open the Simulink file: `dwa_obstacle_avoidance.slx`  
-2. Run `dynamic_window_init.m`  
+2. Run `dynamic_window_init.m`
+
+NOTE: To switch between map1 and map2, they must be set at line 11 of `dynamic_window_init.m`
 
 #### **For Map 3**  
 1. Open the Simulink file: `sequence_dwa_obstacle_avoidance.slx`  
